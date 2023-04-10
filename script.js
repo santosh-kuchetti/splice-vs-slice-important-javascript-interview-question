@@ -1,4 +1,4 @@
-// we can relate them with forEach and map. forEach will modify the array, here splice will modify the array and map won't change the array likewise slice also
+// we can relate them with forEach and map. forEach will modify the array, here splice will modify the array and map won't change the array but returns new array likewise slice also
 
 /*
     slice(startingIndex, endingIndex);
@@ -9,7 +9,7 @@
 /*
     splice(startingIndex, noOfElementsToRemove, item 1, item 2, ....item n );
     splice can have any number of arguments firstOne is staringIndex that we start removing elements and secondIndex is the number of elements to remove and remaining elements are.
-    Important to notice thatsecond Index is the indexnumber
+    Important to notice thatsecond Index is the number of elements to remove
 */
 
 // 1.
